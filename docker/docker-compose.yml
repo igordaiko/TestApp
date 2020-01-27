@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  import-coordinator:
+    build:
+      dockerfile: docker/server-dockerfile
+      context: ..
+    image: app.azurecr.io/import-coordinator:${IMPORT_COORDINATOR_VERSION}
+    

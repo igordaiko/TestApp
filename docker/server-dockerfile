@@ -1,0 +1,4 @@
+FROM microsoft/dotnet:2.1.1-runtime-deps
+COPY build /import-coordinator
+EXPOSE 80
+ENTRYPOINT ["/import-coordinator/bin/import-coordinator", "--home", "/import-coordinator"]

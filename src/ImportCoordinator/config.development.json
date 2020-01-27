@@ -1,0 +1,42 @@
+﻿{
+  "urls": "http://+:80",
+  "logging": {
+    "includeScopes": false,
+    "logLevel": {
+      "default": "Warning"
+    }
+  },
+
+  "settings": {
+    "azure": {
+      "accountName": "acountName",
+      "accountKey": "accountKey",
+      "configContainerName": "config",
+      "bankConfigFileName": "general.json"
+    },
+
+    "databricks": {
+      "token": "databrickstoken",
+      "baseUrl": "https://westeurope.azuredatabricks.net"
+    },
+
+    "database": {
+      "connectionString": "Server=db-server;Database=database;User ID=user;Password=password;Pooling=true"
+    },
+
+    "email": {
+      "host": "host",
+      "port": 587,
+      "userName": "apikey",
+      "password": "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",
+      "fromName": "EMAIL",
+      "fromAddress": "do.not.reply@daiko.com"
+    },
+
+    "security": {
+      "key": "uG9ITTN+vK+HG64D2dtOtOiL5zrutHnLmMdaar+aAS5M=",
+      "accessTokenType": "bearer",
+      "accessTokenName": "service_id"
+    }
+  }
+}
